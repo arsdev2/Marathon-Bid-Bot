@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="IP :    "
+        android:textSize="32sp"
+        android:id="@+id/ipTextLabel"
+        />
+    <EditText
+        android:layout_height="wrap_content"
+        android:layout_width="160dp"
+        app:layout_constraintLeft_toRightOf="@+id/ipTextLabel"
+        android:id="@+id/ipEditText"
+        android:layout_marginLeft="50dp"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Логин:    "
+        android:textSize="32sp"
+        android:id="@+id/loginTextLabel"
+        app:layout_constraintTop_toBottomOf="@+id/ipTextLabel"
+        />
+    <EditText
+        android:layout_height="wrap_content"
+        android:layout_width="160dp"
+        app:layout_constraintLeft_toRightOf="@+id/loginTextLabel"
+        app:layout_constraintTop_toBottomOf="@+id/ipEditText"
+        android:id="@+id/loginEditText"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Пароль:  "
+        android:textSize="32sp"
+        android:layout_marginTop="12dp"
+        android:id="@+id/passTextLabel"
+        app:layout_constraintTop_toBottomOf="@+id/loginTextLabel"
+        />
+    <EditText
+        android:layout_height="wrap_content"
+        android:layout_width="160dp"
+        android:id="@+id/passEditText"
+        app:layout_constraintLeft_toRightOf="@+id/passTextLabel"
+        app:layout_constraintTop_toBottomOf="@+id/loginEditText"
+
+        />
+    <EditText
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:id="@+id/pin"
+        app:layout_constraintTop_toBottomOf="@+id/passTextLabel"
+
+        />
+
+    <Button
+        android:layout_width="160dp"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@+id/pin"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        android:onClick="login"
+        android:text="Логин"
+        />
+
+</android.support.constraint.ConstraintLayout>

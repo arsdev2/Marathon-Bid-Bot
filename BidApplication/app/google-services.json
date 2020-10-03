@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "973786352340",
+    "firebase_url": "https://bidapplication-2877a.firebaseio.com",
+    "project_id": "bidapplication-2877a",
+    "storage_bucket": "bidapplication-2877a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:973786352340:android:fbf99ecf7a8fae85",
+        "android_client_info": {
+          "package_name": "com.arsdev.bidapplication"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "973786352340-06th32pp6e4dva0m2u4c8fau80bv3v0n.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAEzVfa4xcJM9xwuoVqcGI6sSgmjKZBxzg"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
